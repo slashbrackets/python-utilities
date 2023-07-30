@@ -7,4 +7,4 @@ The purpose of this repo is to contain various scripts written in python as util
 
 - **download_webpage.py** - this script will download a web page based on the URL provided and outputs to a local directory specified. It will include images and sanitize the image names to prevent invalid character names. Usage: `python download_webpage.py <url of webpage> <local directory>`
 
-- **tree.py** - similar to the DOS TREE command this script will draw a directory tree and allows exclusion of specific folders. Usage: `python tree.py /path/to/root -e node_modules other_folder_to_exclude`
+- **tree.py** - similar to the DOS TREE command this script will draw a directory tree and allows exclusion of specific folders. Usage: `python tree.py /path/to/root -e node_modules other_folder_to_exclude -f true`
